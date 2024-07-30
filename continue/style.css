@@ -48,8 +48,9 @@ body{
     flex-direction: column;
     flex-wrap: wrap;
 
-    width: 90%;
+    width: 95%;
     height: 90vh;
+    
 
     box-shadow:
   6.7px 6.7px 5.3px rgba(0, 0, 0, 0.028),
@@ -61,15 +62,16 @@ body{
 .div-1 ul{
     /* border: 1px solid orange; */
     
+      
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
     
     padding: 0.5em;
-    margin: 1.5em 0em 2em 5em;
+    margin: 1.8em 0em 2em 2em;
 
-    width: 79%;
+    width: 90%;
     color: #fff;
     font-family: MontReg;
 }
@@ -133,15 +135,20 @@ body{
 }
 
                                             /* DIV 3 */
+.div-3{
+    /* border: 1px solid orange; */
+    width: 40%;
+    margin-top: 3em;
+}
 .div-3 form{
     /* border: 1px solid orange; */
 
-    width: 80%;
+    width: 100%;
     height: auto;
 
     padding: 0.5em;
     gap: 1em;
-    margin: 3em 0em 1em 1em;
+    margin: 0em 0em 0em 0em;
 
     display: flex;
     flex-direction: column;
